@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App{
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.logo{
+  font-size: 31px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  text-shadow: 0px -1px 4px rgb(255, 255, 255), 0px -2px 10px rgb(255, 255, 0), 0px -10px 20px rgb(255, 128, 0), 0px 0px 40px rgb(255, 0, 0);
+}
+.gradient1{
+  background: linear-gradient(275deg,rgba(0,0,0,.1),90%,#f700ff);
+}
+.gradient2{
+  background: linear-gradient(-15deg,rgba(0,0,0,.1),90%,#00ff7b);
+}
