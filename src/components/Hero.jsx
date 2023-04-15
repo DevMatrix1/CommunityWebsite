@@ -3,6 +3,8 @@ import React from 'react'
 const Hero = () => {
   return (
     <div className='flex  flex-col-reverse  justify-center items-center lg:flex-row p-4 lg:mt-12'>
+      <img src="./src/assets/blob.svg" alt=""  className='blur-[228px] absolute left-0 animate-pulse h-4/5' style={{animationDuration:'8s'}}/>
+      <img src="./src/assets/blob.svg" alt=""  className=' blur-[168px] lg:blur-[228px] absolute right-0 animate-pulse h-4/5' style={{animationDuration:'8s'}}/>
           <div className='lg:w-1/2'>
                 <h1 className='w-5/6  text-4xl lg:text-6xl font-Bellefair'>Let's Connect with people in tech</h1>
                 <p className='text-xl mt-8  font-Barlow lg:w-3/4'>Connecting with people in tech is not just about networking, it's about creating a community of peers who continuously learn and grow together.</p>
