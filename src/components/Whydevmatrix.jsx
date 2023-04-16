@@ -1,10 +1,11 @@
 import React from 'react'
+import conceptimg from "../assets/conceptimg.png"
 
 const Whydevmatrix = () => {
   return (
     <div className='flex flex-col lg:flex-row gap-4'>
         <div className='bg-[#FFC4DC] flex flex-col justify-center items-center  lg:flex-row lg:w-1/2  rounded-lg border-yellow-300 border-2 p-4 shadow-xl shadow-yellow-300 lg:shadow-none lg:hover:shadow-xl lg:hover:shadow-amber-400 border-spacing-4 ease-linear'>
-            <img src="./src/assets/conceptimg.png" alt="conceptimg" className='h-[20rem] w-2/5'/>
+            <img src={conceptimg} alt="conceptimg" className='h-[20rem] w-2/5'/>
 
             <div className='text-black p-3'>
                 <h2 className='text-center font-Bellefair text-2xl lg:text-4xl mb-2 ' >Why Dev Matrix</h2>
@@ -12,7 +13,7 @@ const Whydevmatrix = () => {
             </div>
         </div>
         <div className='bg-[#B1AFFF] flex flex-col justify-center items-center lg:flex-row lg:w-1/2 rounded-lg border-yellow-300 border-2 p-4 shadow-xl shadow-yellow-400 lg:shadow-none lg:hover:shadow-xl lg:hover:shadow-amber-400 border-spacing-4 ease-linear'> 
-            <img src="./src/assets/conceptimg.png" alt="conceptimg" className='h-[20rem] w-2/5'/>
+            <img src={conceptimg} alt="conceptimg" className='h-[20rem] w-2/5'/>
             <div className='text-black p-3'>
                 <h2 className='text-center font-Bellefair text-2xl lg:text-4xl mb-2'>Our Concept</h2>
                 <p className='text-center font-Barlow lg:text-left'> Our emphasis is on quality rather than quantity. Your commitment to consistent growth is our primary requirement. Persistence and hard work are crucial to achieving success.</p>

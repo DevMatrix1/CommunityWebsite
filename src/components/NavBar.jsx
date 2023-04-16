@@ -1,5 +1,9 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
+import logo from "../assets/logopng.png"
+import hamburgerMenu from "../assets/hamburger-menu.svg"
+import closeIcon from "../assets/close.svg"
+
 const NavBar = () => {
   const [showMediaIcons, setShowMediaIcons] = useState(true)
   const handleToggle = ()=>{
@@ -12,15 +16,15 @@ const NavBar = () => {
     <>
       <nav className='pt-4'>
         <ul className='flex justify-between items-center'>
-                <li className='flex items-center lg:space-x-6'> <img src="./src/assets/logopng.png" alt="Logo" />
+                <li className='flex items-center lg:space-x-6'> <img src={logo} alt="Logo" />
                     <Link to={"/CommunityWebsite"} className='text-base lg:text-3xl lg:tracking-wider cursor-pointer font-Quintessential logo'> <h1>DEV MATRIX </h1></Link>
                 </li>
                 {
-                   showMediaIcons ?  <img src="./src/assets/hamburger-menu.svg"  alt="menu" className='h-8 w-8 block lg:hidden animate-pulse' onClick={handleToggle}/>: " "
+                   showMediaIcons ?  <img src={hamburgerMenu}  alt="menu" className='h-8 w-8 block lg:hidden animate-pulse' onClick={handleToggle}/>: " "
                  }
                 <div className={`font-BarlowCondensed font-bold flex  flex-col  justify-center lg:justify-end  items-center gap-5  space-x-7 text-xl absolute opacity-95  backdrop-blur  top-0 right-0 w-9/12 h-screen  z-40  lg:relative lg:bg-black lg:mix-blend-plus-lighter lg:flex lg:flex-row lg:p-4  lg:h-fit  ${showMediaIcons ? "hidden" :"block"}`} onClick={handleLinkClick}>
 
-                    <img src="./src/assets/close.svg" alt="close" className='h-8 w-8 absolute right-4 top-10 block lg:hidden animate-bounce' />
+                    <img src={closeIcon} alt="close" className='h-8 w-8 absolute right-4 top-10 block lg:hidden animate-bounce' />
                     <li><Link to={"/CommunityWebsite/Contributers"}> Top Contributers</Link></li>
                     <li><Link to={"/CommunityWebsite/Events"}>Events</Link></li>
                     <li><Link to={"/CommunityWebsite/ContactUs"}> Contact Us</Link></li>
