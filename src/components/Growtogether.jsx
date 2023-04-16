@@ -1,4 +1,6 @@
 import React from 'react'
+import uditatwitter from "../assets/uditatwitter.png"
+import discord from "../assets/discord.png"
 
 const Growtogether = () => {
   return (
@@ -13,7 +15,7 @@ const Growtogether = () => {
             <p className='font-serif mt-4 lg:mt-8 lg:text-xl'>Our community promotes #100DaysOfCode promoting peer learning. Allowing the members to be consistent a way of holding them accountable for their day to day routine.</p>
             <div className='bg-[#FF80BD] p-4 lg:p-8 rounded-2xl lg:rounded-3xl  mt-4 lg:mt-8' >
               <div>
-                <img src="./src/assets/uditatwitter.png" alt="#100days" className=' my-0 mx-auto' />
+                <img src={uditatwitter} alt="#100days" className=' my-0 mx-auto' />
 
               </div>
             </div>
@@ -23,7 +25,7 @@ const Growtogether = () => {
             <p className='font-serif mt-4 lg:mt-8 lg:text-xl'>Supportive community and helpful mentors provide invaluable guidance and support for coding beginners, helping them achieve their goals through specific requests, participation, and experience-sharing.</p>
             <div className='bg-[#FF80BD] p-4 lg:p-8  rounded-2xl lg:rounded-3xl mt-4 lg:mt-8'>
               <div>
-                <img src="./src/assets/discord.png" alt="support" className='rounded-xl lg:rounded-3xl my-0 mx-auto'/>
+                <img src={discord} alt="support" className='rounded-xl lg:rounded-3xl my-0 mx-auto'/>
               </div>
             </div>
           </div>
