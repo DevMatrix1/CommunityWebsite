@@ -22,7 +22,7 @@ const Footer = () => {
 
                 <div className='flex justify-center items-center space-x-4'>
                         
-                    <h2  className=' text-xl lg:text-2xl'>Youtube</h2>
+                    <h2  className=' text-xl lg:text-2xl m-8'>Youtube</h2>
                         <a href='https://www.youtube.com/channel/UCzhTm71hEzzNc0yxEoe2EEQ' target='_blank'><img src={link} alt="Logo" className='w-8 h-8' /></a>
                 </div>
                
