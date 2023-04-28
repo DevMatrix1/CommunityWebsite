@@ -9,7 +9,7 @@ const Footer = () => {
                 <div><img src={logo} alt="Logo" /></div>
                 <div className='flex justify-center items-center space-x-4'>
                     <h2  className=' text-xl lg:text-2xl'>Twitter</h2>
-                        <a href='https://twitter.com/DevMatrix1' target='_blank'><img src="./src/assets/link.png" alt="Logo" className='w-8 h-8' /></a>
+                        <a href='https://twitter.com/DevMatrix1' target='_blank'><img src={link} alt="Logo" className='w-8 h-8' /></a>
                 </div>
                 <div className='flex justify-center items-center space-x-4'>
                         <h2  className=' text-xl lg:text-2xl'>Github</h2>
